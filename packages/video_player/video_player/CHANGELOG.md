@@ -178,7 +178,6 @@ DefaultHttpDataSourceFactory by default.
 
 * Fix a few other IDE warnings.
 
-
 ## 0.10.0+7
 
 * Android: Fix issue where buffering status in percentage instead of milliseconds
