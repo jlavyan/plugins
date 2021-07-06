@@ -601,7 +601,7 @@ static inline CGFloat radiansToDegrees(CGFloat radians) {
 - (void)setMixWithOthers:(FLTMixWithOthersMessage*)input
                    error:(FlutterError* _Nullable __autoreleasing*)error {
   if ([input.mixWithOthers boolValue]) {
-    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategorySoloAmbient
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient
                                      withOptions:AVAudioSessionCategoryOptionMixWithOthers
                                            error:nil];
   } else {
